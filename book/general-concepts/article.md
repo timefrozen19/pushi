@@ -18,7 +18,7 @@ TimBL 在 1989 年的时候发表了一个提案：[Information Management: A Pr
 
 ## 一些概念
 
-### 服务器
+### 服务器 (Server)
 
 用户访问网页，具体的工作就用浏览器是从其他人的机器上下载网页到自己的机器查看。这里面其他人的机器，因为有提供网页的服务，因此称为“服务器”。服务器可以分配域名，比如 google.com 是一个域名。TODO: 域名解释
 
@@ -56,7 +56,7 @@ HTML 越来越流行，但有一个需求没有很好的被满足：可以让网
 
 ```css
 h1 {
-    font-color: red;
+    color: red;
 }
 ```
 
@@ -119,3 +119,4 @@ window.alert('hello world')
 - https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 - https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web
 - https://www.w3.org/Style/CSS20/history.html
+
