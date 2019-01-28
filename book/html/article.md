@@ -65,7 +65,7 @@ HTML 文档由元素组成，在上面的例子中，出现的元素有：html, 
 <p>正文</p>
 ```
 
-P 代表 paragraph 即段落，段落是有开始和结束的，可以看到，这个元素由<p>开始，由</p>结束。但并不是所有的元素都有开始和结束之分的，比如例子中的 meta 元素，meta 代表 metadata 是文档的元数据，因此不需要结束标签。再比如 BR 元素用作换行 (break line)，写法是 &lt;br&gt;，也不需要结束标签。如何知道一个元素是否需要结束标签呢？推荐的地方是 [MDN web docs](https://developer.mozilla.org/en-US/)，这里的文档齐全并且权威，是开发者的好朋友。比如 br 元素的文档：https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br 这里明确说名了不需要结束标签。
+P 代表 paragraph 即段落，段落是有开始和结束的，可以看到，这个元素由&lt;p&gt;开始，由&lt;/p&gt;结束。但并不是所有的元素都有开始和结束之分的，比如例子中的 meta 元素，meta 代表 metadata 是文档的元数据，因此不需要结束标签。再比如 BR 元素用作换行 (break line)，写法是 &lt;br&gt;，也不需要结束标签。如何知道一个元素是否需要结束标签呢？推荐的地方是 [MDN web docs](https://developer.mozilla.org/en-US/)，这里的文档齐全并且权威，是开发者的好朋友。比如 br 元素的文档：https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br 这里明确说名了不需要结束标签。
 
 另外有的元素还有自己的属性，例子中的 meta：
 
