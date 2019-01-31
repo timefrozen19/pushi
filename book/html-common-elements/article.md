@@ -148,22 +148,22 @@ STRONG 元素 (`<strong>`)表示文本十分重要，浏览器通常会用粗体
 行内元素，代码如下：
 
 ```html
-<div>下面的元素是行内元素，<span style="color: yellow">行内元素</span>，行内元素不会换行，大小取决于自身的内容。</div>
+<div>下面的元素是行内元素，<span style="background-color: yellow">行内元素</span>，行内元素不会换行，大小取决于自身的内容。</div>
 ```
 
 效果：
 
-<div style="border: 1px dotted">下面的元素是行内元素，<span style="color: yellow">行内元素</span>，行内元素不会换行，大小取决于自身的内容。</div>
+<div style="border: 1px dotted">下面的元素是行内元素，<span style="background-color: yellow">行内元素</span>，行内元素不会换行，大小取决于自身的内容。</div>
 
 块级元素，代码如下：
 
 ```html
-<div>下面的元素是块级元素，<p style="color: yellow;">块级元素，</p>块级元素默认会占满父元素的宽度，前后各新起一行，隔断(Block)其之前与之后的元素。</div>
+<div>下面的元素是块级元素，<p style="background-color: yellow;">块级元素，</p>块级元素默认会占满父元素的宽度，前后各新起一行，隔断(Block)其之前与之后的元素。</div>
 ```
 
 效果：
 
-<div style="border: 1px dotted">下面的元素是块级元素，<p style="color: yellow; margin: 0">块级元素，</p>块级元素默认会占满父元素的宽度，前后各新起一行，隔断(Block)其之前与之后的元素。</div>
+<div style="border: 1px dotted">下面的元素是块级元素，<p style="background-color: yellow; margin: 0">块级元素，</p>块级元素默认会占满父元素的宽度，前后各新起一行，隔断(Block)其之前与之后的元素。</div>
 
 其中 style 属性在 CSS 章节会详细解释，在这里只要知道它让文字变色就好了。在 CSS 章节中我们会看到可以通过 CSS 改变元素是否块级元素或者行内元素。
 
