@@ -50,7 +50,7 @@ TimBL 在 1989 年的时候发表了一个提案：[Information Management: A Pr
 
 现在不理解上面的格式没有关系，以后的章节中有详细教程。
 
-### CSS (Cascading Style Sheets)
+### CSS (层叠样式表 Cascading Style Sheets)
 
 HTML 越来越流行，但有一个需求没有很好的被满足：可以让网页有自定义的样式。开发者和网页设计师需要更自由的控制网页的展示效果，比如布局方式，边框，背景色，背景图片，按钮样式等等。HTML 的布局能力非常有限，如果把非常复杂的样式设计到 HTML 中，那么 HTML 会非常复杂，冗长；另外分离内容与样式，也是一个很好的实践方式。因此，在 1994 年，[Håkon Wium Lie](https://www.wikiwand.com/en/H%C3%A5kon_Wium_Lie) 发表了自己的样式表提案，这提案成为了后来的 CSS。下面是一个简单的 CSS 例子。
 

@@ -157,7 +157,7 @@ mailto:shirh.lee@gmail.com
 
 ## CSS 中的 URL 资源
 
-CSS 中也可以引用资源，例如设置图片背景，设置 font-face。这个时候相对路径的参照是 css 文件的 URL 不是相关页面的 URL。例如，上文例子中的 `<link rel="stylesheet" href="bg/add-background-image.css">`，这个 css 的内容如下：
+CSS 中也可以引用资源，例如设置图片背景，设置 font-face。这个时候相对路径的参照是 css 文件的 URL 而**不是**相关页面的 URL。例如，上文例子中的 `<link rel="stylesheet" href="bg/add-background-image.css">`，这个 css 的内容如下：
 
 ```css
 body {
@@ -168,8 +168,13 @@ body {
 
 浏览器首先根据当前页面的 URL 确定 CSS 的 URL 为：`http://example.simon1987.com/url-demo/bg/add-background-image.css`，再根据这个路径，和图片相对路径`'../../images/shanghai-unsplash.jpg'`确定图片的 URL 为 `http://example.simon1987.com/images/shanghai-unsplash.jpg`
 
+## 注意事项
+
+- 在开发时通常是在本地（自己的电脑）上进行的，文件的相对路径与部署到服务器的相对路径可能不一样（比如相对于根路径；比如用`../`访问上一层的资源，在服务器上不一定有权限），尽管大部分情况是一致的。
+- 本地文件的 URL 是 file 协议的，而部署到服务器以后，在HTTP(S)协议的网页中，是无法访问 file 协议的资源的。如果网页的 URL 是 HTTPS 的，引入的资源是 HTTP 的，这个资源也大概率会被浏览器阻止访问。都是因为安全上的考量。
+- 在本地开发中可以在本地部署服务器访问，而不是通过浏览器直接打开文件，这样可以避免很多开发与部署不一致的问题。服务器的部署在第x章有介绍。
+
 ## 参考文档
 
 - RFC 1738: https://tools.ietf.org/html/rfc1738
-- URL Anatomy with SEO Tips: https://cascadingmedia.com/insites/2015/02/url-anatomy-seo-tips.html
 - `<base>`标签：https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/base
