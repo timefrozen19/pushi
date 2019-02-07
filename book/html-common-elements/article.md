@@ -13,7 +13,7 @@
 ```
 
 效果：
-<div style="border: 1px dotted;">
+<div style="border: 1px dashed;">
     <h1 style="margin: 0;">Petter Parker</h1>
 </div>
 
@@ -27,7 +27,7 @@ P 元素表示段落(paragraph)，P 可以包含文字，或者很多元素，�
 ```
 
 效果：
-<div style="border: 1px dotted">
+<div style="border: 1px dashed">
     <p>我是蜘蛛侠，我做一些很酷的事情，比如拯救世界<p>
 </div>
 
@@ -40,7 +40,7 @@ IMG 元素表示图片(image)，img 元素不需要结束标签。需要 src 属
 ```
 
 效果：
-<div style="border: 1px dotted">
+<div style="border: 1px dashed">
     <img src="http://ku.simon1987.com/spiderman.jpg" alt="spider man" >
 </div>
 ### A 元素 &lt;a&gt;
@@ -52,7 +52,7 @@ A 元素(anchor element)表示超链接(hyperlink)。href 属性指定了超链�
 ```
 
 效果：
-<div style="border: 1px dotted">
+<div style="border: 1px dashed">
     <a href="https://www.marvel.com/characters/spider-man-peter-parker">漫威蜘蛛侠</a>
 </div>
 
@@ -80,7 +80,7 @@ UL 元素表示**无序列表** (Unordered List)，无序指没有先后顺序�
 
 效果：
 
-<div style="border: 1px dotted">
+<div style="border: 1px dashed">
     组织：
     <ul>
         <li>复仇者联盟</li>
@@ -114,7 +114,7 @@ DIV 元素，即**文档分区元素**(**Content Division element**)，是一个
 ```
 
 效果：
-<div style="border: 1px dotted">
+<div style="border: 1px dashed">
 <footer>
 	this website is made by Simon1987
 </footer>
@@ -131,11 +131,13 @@ STRONG 元素 (`<strong>`)表示文本十分重要，浏览器通常会用粗体
 ```
 
 效果：
-<div style="border: 1px dotted">
+<div style="border: 1px dashed">
 <p style="margin: 0">
     <strong>蜘蛛侠</strong>（英语：Spider-Man）是漫威漫画的超级英雄。本名为彼得·班杰明·帕克（Peter Benjamin Parker）他是由作家／编辑史丹·李及作家／画家史蒂夫·迪特科所创造。
 </p>
 </div>
+## FORM, INPUT, BUTTON 等表单交互性元素
+
 
 
 
@@ -153,7 +155,7 @@ STRONG 元素 (`<strong>`)表示文本十分重要，浏览器通常会用粗体
 
 效果：
 
-<div style="border: 1px dotted">下面的元素是行内元素，<span style="background-color: yellow">行内元素</span>，行内元素不会换行，大小取决于自身的内容。</div>
+<div style="border: 1px dashed">下面的元素是行内元素，<span style="background-color: yellow">行内元素</span>，行内元素不会换行，大小取决于自身的内容。</div>
 
 块级元素，代码如下：
 
@@ -163,7 +165,7 @@ STRONG 元素 (`<strong>`)表示文本十分重要，浏览器通常会用粗体
 
 效果：
 
-<div style="border: 1px dotted">下面的元素是块级元素，<p style="background-color: yellow; margin: 0">块级元素，</p>块级元素默认会占满父元素的宽度，前后各新起一行，隔断(Block)其之前与之后的元素。</div>
+<div style="border: 1px dashed">下面的元素是块级元素，<p style="background-color: yellow; margin: 0">块级元素，</p>块级元素默认会占满父元素的宽度，前后各新起一行，隔断(Block)其之前与之后的元素。</div>
 
 其中 style 属性在 CSS 章节会详细解释，在这里只要知道它让背景变色就好了。在 CSS 章节中我们会看到可以通过 CSS 改变元素是否块级元素或者行内元素。
 

@@ -100,7 +100,7 @@ mailto:shirh.lee@gmail.com
 所谓相对 URL 是不指定完整目标的 URL，而根据当前页面的 URL (即 Base URL，`<base>`标签可以改变 Base URL，见下文) 和相对路径，来访问目标资源。相对 URL 有 4 个规则：
 
 - 不同层级的路径，用“/”隔开。
-- 当前页面同一层的资源。直接写资源的名称。
+- 当前页面同一层的资源。直接写资源的名称，或者用`./`加资源的名称，表示同一层。
 - 当前页面上一层的资源。用“../”来表示上一层，可以同时有多个“../”。
 - 可以相对**根路径**访问资源。用“/”开始，表示相对根路径。根路径指紧接着域名的路径，比如 http://example.simon1987.com/ 是根路径。
 
@@ -121,11 +121,11 @@ mailto:shirh.lee@gmail.com
   </tr>
   <tr>
     <td rowspan="6" style="vertical-align:middle">http://example.com/a/b/c.html <br>或<br>http://example.com/a/b/<br>或<br>http://example.com/a/b/d.html</td>
-    <td>photo.jpg</td>
+    <td>photo.jpg 或 ./photo.jpg</td>
     <td>http://example.com/a/b/photo.jpg</td>
   </tr>
   <tr>
-    <td>css/reset.css</td>
+    <td>css/reset.css 或 ./css/reset.css</td>
     <td>http://example.com/a/b/css/reset.css</td>
   </tr>
   <tr>
@@ -145,6 +145,7 @@ mailto:shirh.lee@gmail.com
     <td>http://example.com/a/b/c.html</td>
   </tr>
 </table>
+
 
 另外，可以在 HTML 中使用`<base>`标签改变所有相对路径的基本路径，可以参考[这个 MDN 文档](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/base)。
 
