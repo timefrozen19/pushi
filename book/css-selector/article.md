@@ -128,7 +128,7 @@ TODO
         font-size: 2rem; /* 让类为 first-letter-bigger 的元素的第一个字母大小为 2rem */
     }
     .a-after-arrow a::after {
-        content: "→"; /* 让类为 a-after-arrow 元素的后代中的 a 元素后面加上右箭头 */
+        content: " →"; /* 让类为 a-after-arrow 元素的后代中的 a 元素后面加上右箭头 */
     }
     .selection-black-bg::selection {
         color: white; /* 类为 selection-black-bg 选中文字后文字变为白色 */
@@ -151,7 +151,7 @@ TODO
         width: 20rem;
     }
     .a-after-arrow a::after {
-        content: "→"
+        content: " →"
     }
     .selection-black-bg::selection {
         color: white;
