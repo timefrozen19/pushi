@@ -50,7 +50,7 @@ TimBL 在 1989 年的时候发表了一个提案：[Information Management: A Pr
 
 现在不理解上面的格式没有关系，以后的章节中有详细教程。
 
-### CSS (Cascading Style Sheets)
+### CSS (层叠样式表 Cascading Style Sheets)
 
 HTML 越来越流行，但有一个需求没有很好的被满足：可以让网页有自定义的样式。开发者和网页设计师需要更自由的控制网页的展示效果，比如布局方式，边框，背景色，背景图片，按钮样式等等。HTML 的布局能力非常有限，如果把非常复杂的样式设计到 HTML 中，那么 HTML 会非常复杂，冗长；另外分离内容与样式，也是一个很好的实践方式。因此，在 1994 年，[Håkon Wium Lie](https://www.wikiwand.com/en/H%C3%A5kon_Wium_Lie) 发表了自己的样式表提案，这提案成为了后来的 CSS。下面是一个简单的 CSS 例子。
 
@@ -70,7 +70,7 @@ h1 {
 
 ### JavaScript
 
-HTML 和 CSS 只是信息的展示。如果说浏览器或者 web 能够成为一个应用平台，那还是不够的。需要能够完成一些逻辑性的工作，例如：在用户输入邮箱的时候，检查邮箱格式是否正确。这时候，就需要一门编程语言，这门语言就是 JavaScript。他由 Brendan Eich 最初设计实现。经过标准化(标准化的名字称为 ECMAScript，可以认为和 JavaScript 是一种东西的两种称谓)，以及多个版本的发展，现在 JavaScript 功能十分强大，甚至有了 NodeJS 这样浏览器以外的平台。根据[统计](https://githut.info/)JavaScript 是 Github 上最活跃的语言（2019年2月）。下面是一个简单的 JavaScript 语言的例子。
+HTML 和 CSS 只是信息的展示。如果说浏览器或者 web 能够成为一个应用平台，那还是不够的。还需要能够完成一些逻辑性的工作，例如：在用户输入邮箱的时候，检查邮箱格式是否正确。这时候，就需要一门编程语言，这门语言就是 JavaScript。他由 Brendan Eich 最初设计实现。经过标准化(标准化的名字称为 ECMAScript，可以认为和 JavaScript 是一种东西的两种称谓)，以及多个版本的发展，现在 JavaScript 功能十分强大，甚至有了 NodeJS 这样浏览器以外的平台。根据[统计](https://githut.info/)JavaScript 是 Github 上最活跃的语言（2019年2月）。下面是一个简单的 JavaScript 语言的例子。
 
 ```javascript
 window.alert('hello world')
@@ -84,7 +84,7 @@ window.alert('hello world')
 
 ### 浏览器
 
-浏览器是浏览网页用的软件。他会根据用户输入的 URL，或者点击的超链接，将相应服务器上的网页下载下来，并根据 HTML/CSS/JavaScript 源文件，渲染出最用用户看到的样子。流行的浏览器有 Chrome, Firefox, Edge 等。
+浏览器是浏览网页用的软件。他会根据用户输入的 URL，或者点击的超链接，将相应服务器(Web Server)上的网页下载下来，并根据 HTML/CSS/JavaScript 源文件，渲染出最用用户看到的样子。流行的浏览器有 Chrome, Firefox, Edge 等。
 
 ### HTTP (Hypertext Transfer Protocol)
 

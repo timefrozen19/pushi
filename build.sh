@@ -1,0 +1,1 @@
+pandoc -o fe01.epub ./book/general-concepts/article.md ./book/html/article.md --resource-path=book/general-concepts:book/html
