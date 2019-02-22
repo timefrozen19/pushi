@@ -111,7 +111,7 @@ window.alert('hello world')
 与之对应的，一个典型的 Web 开发者工作的流程是这样：
 
 1. 编辑 HTML/CSS/JavaScript 文件
-2. 配置好网页服务器软件 (Web Server)
+2. 配置好域名，服务器，以及网页服务器软件 (Web Server)
 3. 将编辑好的文件部署到服务器上
 
 ## 参考资料
