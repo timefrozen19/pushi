@@ -26,10 +26,10 @@ CSS 中设置大小是基本操作，本节介绍常用的长度单位。width, 
 Windows 和 Mac 都可以设置显示的逻辑分辨率，以这台 Mac 为例：
 
 设备分辨率(物理分辨率)为 2560×1600：
-![device resolution](./device-resolution.png)
+![device resolution](./css-size-unit/device-resolution.png)
 
 当前设置的逻辑分辨率为 1280×800：
-![logical resolution](./logical-resolution.png)
+![logical resolution](./css-size-unit/logical-resolution.png)
 
 设置好逻辑分辨率，我们的图片，文字就不会在不同 DPI 显示器显示的大小差异很大了。
 

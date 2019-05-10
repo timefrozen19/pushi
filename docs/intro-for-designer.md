@@ -65,18 +65,18 @@
 
 现在多了个域名，但是英特网仍然是通过 IP 寻找机器的，所以在打开网站的时候需要多一步操作：把域名转换为 IP，这个操作叫做“域名解析”，提供域名解析的系统，叫域名系统，即 DNS(Domain Name System)。域名系统在哪里设置呢？这个通常是不需要访问互联网的用户设置的，运营商会费配一个 DNS 服务器，我们在上网的时候，就会通过这个服务器查询域名所对应的 IP 地址。当然也可以手动设置，例如 Windows 系统的设置：
 
-![dns windows](./dns-windows.png)
+![dns windows](./intro-for-designer/dns-windows.png)
 
 域名的拥有着通常通过域名注册商设置域名的 DNS。
 
 例如：笔者在亚马逊购买了服务器，在 GoDaddy 购买了域名，同时在 Godaddy 设置了域名指向的服务器：
 
 1. 亚马逊购买了服务器，IP 为 52.192.153.181
-![aws server](./aws-server.png)
+![aws server](./intro-for-designer/aws-server.png)
 2. GoDaddy 购买了域名 simon1987.com
-![godaddy domain](./godaddy-domain.png)
+![godaddy domain](./intro-for-designer/godaddy-domain.png)
 3. GoDaddy 中设置域名对应的 IP 即 DNS 记录。
-![dns records](./dns-records.png)
+![dns records](./intro-for-designer/dns-records.png)
 
 这样，对应关系就建立好了，剩下的就是在这台服务器上，运行网站服务了。
 
@@ -117,7 +117,7 @@ HTML 的职责主要是定义网站的内容，以及结构，一个简单的 HT
 
 浏览器打开后的效果是：
 
-![基本的 HTML 预览](./basic-html.png)
+![基本的 HTML 预览](./intro-for-designer/basic-html.png)
 
 HTML 基本写法，规则只要 1 小时就可以学会，剩下的就是看文档。
 
@@ -132,7 +132,7 @@ h1 {
 
 上面的 CSS 规定了 h1 元素的文字颜色是红色。如果把上面的 CSS 应用到之前 HTML 的例子，用浏览器打开效果如下：
 
-![基本的 css 预览](./basic-css.png)
+![基本的 css 预览](./intro-for-designer/basic-css.png)
 
 CSS 学习需要的时间相对于 HTML 长一些，如果对样式没有高级酷炫的要求，入门的水平还是很快的。
 
@@ -148,7 +148,7 @@ window.alert('hello world')
 
 这个例子中，使用了 window 对象(即浏览器提供的一个对象，他代表浏览器窗口)的功能，弹出提示“hello world”。用浏览器打开会弹出对话框，效果如下：
 
-![简单的 js 例子](./basic-js.png)
+![简单的 js 例子](./intro-for-designer/basic-js.png)
 
 JavaScript 是这三者中相对最难的。学习时间因人而异。这个也是通常意义上的编程语言(Programming Language)。(HTML 是 Markup Language)。熟练以后可以训练自己的逻辑思维，甚至提供一种新的思维方式。
 
