@@ -46,7 +46,7 @@ TimBL 在 1989 年的时候发表了一个提案：[Information Management: A Pr
 
 以上 HTML 源代码不是给浏览网页的用户看的，用户会看到浏览器渲染后的样子:
 
-![基本的 HTML 预览](demo/basic-html.png)
+![基本的 HTML 预览](./demo/basic-html.png)
 
 现在不理解上面的格式没有关系，以后的章节中有详细教程。
 
@@ -62,7 +62,7 @@ h1 {
 
 上面的 CSS 规定了 h1 元素的文字颜色是红色。如果把上面的 CSS 应用到之前 HTML 的例子，用浏览器打开效果如下：
 
-![基本的 css 预览](demo/basic-css.png)
+![基本的 css 预览](./demo/basic-css.png)
 
 
 
@@ -78,7 +78,7 @@ window.alert('hello world')
 
 这个例子中，使用了 window 对象(即浏览器提供的一个对象，他代表浏览器窗口)的功能，弹出提示“hello world”。用浏览器打开会弹出对话框，效果如下：
 
-![简单的 js 例子](demo/basic-js.png)
+![简单的 js 例子](./demo/basic-js.png)
 
 如果现在不理解上面的内容，或者不知道什么是 window，什么是对象，也没有关系。在 JavaScript 章节中会专门解释。
 

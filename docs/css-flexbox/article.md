@@ -28,17 +28,8 @@ flexbox 中我们需要关注两类元素的 css，一是“容器元素（flex 
 }
 ```
 效果如下
-<style>
-.fcontainer > div:nth-child(1) {
-  background: #4286f4;
-}
-.fcontainer > div:nth-child(2) {
-  background: #7fc67f;
-}
-.fcontainer > div:nth-child(3) {
-  background: #c67fb3;
-}
-</style>
+
+
 <div class="fcontainer" style="display: flex">
   <div>永和九年，歲在癸丑，暮春之初，會於會稽山陰之蘭亭，脩稧事也。羣賢畢至，少長咸集。此地有崇山峻領，茂林脩竹；又有清流激湍，映帶左右，引以為流觴曲水，列坐其次。雖無絲竹管弦之盛，一觴一詠，亦足以暢敘幽情。</div>
   <div>是日也，天朗氣清，惠風和暢。仰觀宇宙之大，俯察品類之盛。所以遊目騁懷，足以極視聽之娛，信可樂也。</div>
@@ -91,3 +82,15 @@ flexbox 中我们需要关注两类元素的 css，一是“容器元素（flex 
 </div>
 
 以上是 flexbox 的一个例子，flexbox 完整的用法及用例可以查看 https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 或者官方文档。
+
+<style lang="scss">
+.fcontainer > div:nth-child(1) {
+  background: #4286f4;
+}
+.fcontainer > div:nth-child(2) {
+  background: #7fc67f;
+}
+.fcontainer > div:nth-child(3) {
+  background: #c67fb3;
+}
+</style>
