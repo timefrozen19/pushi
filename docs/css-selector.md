@@ -80,6 +80,7 @@ div span { color: blue; } /* 只有作为 <div> 后代的 <span> 元素被选中
     </div>
 	<div style="margin: 0"><p style="text-align: center; margin: 0">文字剧中</p></div>
 </div>
+
 ## 属性选择器
 
 TODO
@@ -94,9 +95,6 @@ TODO
 ```
 
 <div style="margin: 0; border: 1px dashed">
-<style>
-    .shine:hover{ color: red; background-color: yellow; }
-</style>
 <a class="shine">鼠标悬停效果</a>
 </div>
 
@@ -143,7 +141,20 @@ TODO
 ```
 
 <div style="margin: 0; border: 1px dashed; width: 20rem;">
-<style>
+<p class="first-letter-bigger" style="">
+    这是一个::first-letter的例子，这是一个::first-letter的例子，这是一个::first-letter的例子，这是一个::first-letter的例子，这是一个::first-letter的例子，这是一个::first-letter的例子
+</p>
+<p class="a-after-arrow"><a href="https://www.w3.org" target="_blank">https://www.w3.org</a></p>
+<p class="selection-black-bg" style="margin: 0">选中后样式变化</p>
+</div>
+
+
+## 参考文档
+
+- CSS 选择器：https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+- 伪类：https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+<style lang="scss">
     .first-letter-bigger::first-letter { 
         font-size: 2rem; 
     }
@@ -157,16 +168,5 @@ TODO
         color: white;
         background-color: black;
     }
+    .shine:hover{ color: red; background-color: yellow; }
 </style>
-<p class="first-letter-bigger" style="">
-    这是一个::first-letter的例子，这是一个::first-letter的例子，这是一个::first-letter的例子，这是一个::first-letter的例子，这是一个::first-letter的例子，这是一个::first-letter的例子
-</p>
-<p class="a-after-arrow"><a href="https://www.w3.org" target="_blank">https://www.w3.org</a></p>
-<p class="selection-black-bg" style="margin: 0">选中后样式变化</p>
-</div>
-
-
-## 参考文档
-
-- CSS 选择器：https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
-- 伪类：https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes

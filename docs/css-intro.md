@@ -107,7 +107,8 @@ p {
 <div style="margin: 0, padding: 0; border: 1px dashed">
 <p style="color: yellow; margin: 0; text-align: center">外部样式</p>
 </div>
-在上面的例子中，我们在`<head>`标签中添加了子元素`<link rel="stylesheet" href="style.css">`其中 rel 指定资源的类型，href 指定了资源的 URL（在这里是**相对 URL**）。可以参考[资源定位和 URL]() 章节了解如何写 URL。
+
+在上面的例子中，我们在`<head>`标签中添加了子元素`<link rel="stylesheet" href="style.css">`其中 rel 指定资源的类型，href 指定了资源的 URL（在这里是**相对 URL**）。可以参考[资源定位和 URL](resource-path.md) 章节了解如何写 URL。
 
 ### CSS 注释
 

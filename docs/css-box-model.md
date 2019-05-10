@@ -5,45 +5,6 @@ CSS 能控制大小和距离，有哪些地方的大小和距离可以控制呢�
 这个盒模型如下
 
 <div class="box-image">
-    <style>
-        div.box-image div{
-            color: #222;
-            text-align: center;
-            border-radius: 4px;
-        }
-        span.des {
-            display: block;
-            width: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            text-align: center;
-        }
-        span.margin, span.padding {
-            top: 1rem;
-        }
-        .margin-box {
-            position: relative;
-            border: 1px dashed;
-            background-color: #d7e9fd;
-            padding: 3rem;
-        }
-        .border-box {
-            position: relative;
-            background-color: #5c96d8;
-            padding: 1.5rem;
-        }
-        .padding-box {
-            position: relative;
-            background-color: #d7e9fd;
-            padding: 3rem;
-        }
-        .content-box {
-            position: relative;
-            background-color: #ff9;
-            padding: 2rem;
-        }
-    </style>
     <div class="margin-box">
       <span class="des margin">外边距 margin</span>
       <div class="border-box">
@@ -58,7 +19,7 @@ CSS 能控制大小和距离，有哪些地方的大小和距离可以控制呢�
     </div>
 </div>
 
-可以看到，在盒模型中，每个元素都有**外边距 (margin)**，**边框 (border)**，**内边距 (padding)**，**内容(content)**属性。这几个属性很常用，在 CSS 中是 margin, border, padding 属性，下文将直接使用英文。
+可以看到，在盒模型中，每个元素都有 **外边距 (margin)**，**边框 (border)**，**内边距 (padding)**，**内容(content)** 属性。这几个属性很常用，在 CSS 中是 margin, border, padding 属性，下文将直接使用英文。
 
 设想一下，我们用一个盒子装东西。不同盒子之间有个距离，为 margin，盒子本身有个边框，为 border，盒子与里面的东西之间还有一定的距离，为 padding。最里面才是盒子里面装的东西。
 
@@ -118,3 +79,44 @@ html {
 
 ## 参考文档
 - inheriting box sizing probably slightly better best practice: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+
+
+<style>
+    div.box-image div{
+        color: #222;
+        text-align: center;
+        border-radius: 4px;
+    }
+    span.des {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    span.margin, span.padding {
+        top: 1rem;
+    }
+    .margin-box {
+        position: relative;
+        border: 1px dashed;
+        background-color: #d7e9fd;
+        padding: 3rem;
+    }
+    .border-box {
+        position: relative;
+        background-color: #5c96d8;
+        padding: 1.5rem;
+    }
+    .padding-box {
+        position: relative;
+        background-color: #d7e9fd;
+        padding: 3rem;
+    }
+    .content-box {
+        position: relative;
+        background-color: #ff9;
+        padding: 2rem;
+    }
+</style>

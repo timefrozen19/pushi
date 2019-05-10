@@ -28,7 +28,7 @@ P 元素表示段落(paragraph)，P 可以包含文字，或者很多元素，�
 
 效果：
 <div style="border: 1px dashed">
-    <p>我是蜘蛛侠，我做一些很酷的事情，比如拯救世界<p>
+    <p>我是蜘蛛侠，我做一些很酷的事情，比如拯救世界</p>
 </div>
 
 ### IMG 元素
@@ -43,6 +43,7 @@ IMG 元素表示图片(image)，img 元素不需要结束标签。需要 src 属
 <div style="border: 1px dashed">
     <img src="http://ku.simon1987.com/spiderman.jpg" alt="spider man" >
 </div>
+
 ### A 元素 &lt;a&gt;
 
 A 元素(anchor element)表示超链接(hyperlink)。href 属性指定了超链接的 URL，也可以是 URL 片段或相对路径。关于相对路径，在下一章介绍。URL 片段是以井号开头的文字，例如`<a href="#top">顶部</a>`，其中 top 是页面中某个元素的 ID，ID 在以后的章节会介绍。另外 A 元素还有 target 属性，表示链接打开的目标。属性值默认是 _self 指定在当前页面打开链接，还可以设置为 _blank 指定浏览器在新窗口打开链接。
@@ -55,7 +56,6 @@ A 元素(anchor element)表示超链接(hyperlink)。href 属性指定了超链�
 <div style="border: 1px dashed">
     <a href="https://www.marvel.com/characters/spider-man-peter-parker">漫威蜘蛛侠</a>
 </div>
-
 
 ### UL, OL 以及 LI 元素
 
@@ -96,8 +96,6 @@ UL 元素表示**无序列表** (Unordered List)，无序指没有先后顺序�
         <li>灭霸</li>
     </ol>
 </div>
-
-
 
 ### HEADER, MAIN, SECTION, ARTICLE, FOOTER, DIV元素
 
