@@ -9,12 +9,12 @@
 标题元素用来表示标题，HTML 一共定义了6个级别的标题，即&lt;h1&gt;-&lt;h6&gt;，例如
 
 ```html
-<h1>Petter Parker</h1>
+<h1>Peter Parker</h1>
 ```
 
 效果：
 <div style="border: 1px dashed;">
-    <h1 style="margin: 0;">Petter Parker</h1>
+    <h1 style="margin: 0;">Peter Parker</h1>
 </div>
 
 
@@ -33,7 +33,7 @@ P 元素表示段落(paragraph)，P 可以包含文字，或者很多元素，�
 
 ### IMG 元素
 
-IMG 元素表示图片(image)，img 元素不需要结束标签。需要 src 属性指定图片的 url。alt 属性的作用是给图片一个描述文字，屏幕阅读器会使用到这个描述，另外在图片无法再入的时候，浏览器也会显示这个文字，alt 属性不是必须的。
+IMG 元素表示图片(image)，img 元素不需要结束标签。需要 src 属性指定图片的 url。alt 属性的作用是给图片一个描述文字，屏幕阅读器会使用到这个描述，另外在图片无法载入的时候，浏览器也会显示这个文字，alt 属性不是必须的。
 
 ```html
 <img src="http://ku.simon1987.com/spiderman.jpg" alt="spider man" >
@@ -99,7 +99,7 @@ UL 元素表示**无序列表** (Unordered List)，无序指没有先后顺序�
 
 ### HEADER, MAIN, SECTION, ARTICLE, FOOTER, DIV元素
 
-HEADER, MAIN, SECTION, ARTICLE, FOOTER 属于**内容分区元素**(Content sectioning elements)，用来把整个文档分为多个逻辑分区，比如 HEADER 元素可以用来表示介绍性内容，MAIN 元素可以用来表示文档的主要内容，SECTION 元素可以用来表示单独的一节内容，ARTICLE 可以用来表示帖子，文章，博客，评论等，FOOTER 表示页脚，经常用来放作者，版权，联系方式等信息。这几个元素都是 HTML5 标准新加入的，可以更准确的表达文档的逻辑结构，也属于**语义元素**(semantic element) 在 HTML5 之前，通常是用 DIV 元素来分隔。
+HEADER, MAIN, SECTION, ARTICLE, FOOTER 属于**内容分区元素**(Content sectioning elements)，用来把整个文档分为多个逻辑分区，比如 HEADER 元素可以用来表示介绍性内容，MAIN 元素可以用来表示文档的主要内容，SECTION 元素可以用来表示单独的一节内容，ARTICLE 可以用来表示帖子，文章，博客，评论等，FOOTER 表示页脚，经常用来放作者，版权，联系方式等信息。这几个元素都是 HTML5 标准新加入的，可以更准确的表达文档的逻辑结构，也属于**语义元素**(semantic element)。在 HTML5 之前，通常是用 DIV 元素来分隔。
 
 DIV 元素，即**文档分区元素**(**Content Division element**)，是一个通用的容器，可以包含各种子元素，比如 UL, H1, P, IMG, DIV 等。在 HTML5 之前，只能用 DIV 来组织文档的逻辑结构，在 HTML5 之后，建议在不同的场景下使用不同的更加准确的语义元素，比如 HEADER, FOOTER, ARTICLE 等，虽然浏览器展示没有分别。
 

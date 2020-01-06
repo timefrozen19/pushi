@@ -55,7 +55,7 @@
 体现在 CSS 上，块级元素拥有 `display: block` 的属性，行内元素有 `display: inline` 的属性。比如 `<span>` 元素默认为 `display: inline`，可以通过 CSS 改变这个默认属性。
 
 大部分元素 `display` 属性的默认值是 `inline` 或 `block`。`display` 还有更多值可以设置，查看 [MDN 文档：display 属性](https://developer.mozilla.org/en-US/docs/Web/CSS/display) 了解更多。
-默认情况下，`block` 元素从上而下排列，而 `inline` 元素从前往后排列，这个排列方式叫“正常布局流(normal flow)”
+默认情况下，`block` 元素从上而下排列，而 `inline` 元素从前往后排列，这个排列方式叫“正常布局流(normal flow)”。
 
 ## 定位
 可以通过定位来让元素**脱离**正常布局流，让他有其他的定位属性。通过设置 `position` 属性来改变定位，这个属性的值有 5 种：
@@ -146,13 +146,13 @@ position: fixed 例子：保持在浏览器窗口的右下角
 
 这个属性是相对比较新的，在实际使用的时候注意浏览器兼容性。
 
-下面例子种的 *I'm sticly* 元素是粘性定位，可以试着滚动后的效果。
+下面例子中的 *I'm sticky* 元素是粘性定位，可以试着滚动后的效果。
 
 ```html
 <div style="height: 200px; overflow: scroll; margin: 0; padding: 0;">
   <div style="height: 70px; background-color: #1587cc"></div>
   <div style="height: 70px; background-color: #158766"></div>
-  <div style="position: sticky; top: 0; background-color: #153366; text-align: center">I'm sticky</div>
+  <div style="position: sticky; top: 0; color: #FFFFFF; background-color: #153366; text-align: center">I'm sticky</div>
   <div style="height: 70px; background-color: #155566"></div>
   <div style="height: 70px; background-color: #558766"></div>
   <div style="height: 70px; background-color: #998766"></div>
@@ -165,7 +165,7 @@ position: fixed 例子：保持在浏览器窗口的右下角
 <div style="height: 200px; overflow: scroll; margin: 0; padding: 0; border: 1px dashed;">
   <div style="height: 70px; background-color: #1587cc"></div>
   <div style="height: 70px; background-color: #158766"></div>
-  <div style="position: sticky; top: 0; background-color: #153366; text-align: center">I'm sticky</div>
+  <div style="position: sticky; top: 0; color: #FFFFFF; background-color: #153366; text-align: center">I'm sticky</div>
   <div style="height: 70px; background-color: #155566"></div>
   <div style="height: 70px; background-color: #558766"></div>
   <div style="height: 70px; background-color: #998766"></div>
@@ -208,7 +208,7 @@ position: fixed 例子：保持在浏览器窗口的右下角
 
 所以解决这个问题的1方法是给第一个 `<div>` 设置高度：
 ```html
-<div style="height: 300px">
+<div style="height: 80px">
   <div style="float: left; height: 50px; width: 40%; background: yellow"></div>
   <div style="float: right; height: 80px; width: 40%; background: yellow"></div>
 </div>
@@ -243,7 +243,7 @@ position: fixed 例子：保持在浏览器窗口的右下角
 新起一个块级元素，clear: both 使这个元素成为新的段落。
 </p>
 
-`clear` 属性可以为 `left`, `right`, `both`, `none`。`left`/`right` 设置后面的元素比左/右浮动的元素低，`both` 设置元素比左右浮动的元素都低。`none` 为默认值，没有清楚浮动的效果。
+`clear` 属性可以为 `left`, `right`, `both`, `none`。`left`/`right` 设置后面的元素比左/右浮动的元素低，`both` 设置元素比左右浮动的元素都低。`none` 为默认值，没有清除浮动的效果。
 
 `clear` 属性也可以作用于非浮动元素，可以通过 [MDN 文档：clear 属性](https://developer.mozilla.org/zh-CN/docs/Web/CSS/clear) 查看详情。
 

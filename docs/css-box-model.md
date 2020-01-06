@@ -56,7 +56,7 @@ Padding 定义了元素的内边距，即边框与内容间的距离。padding �
 - 可以单独设置 1 个方向：`padding-top: 10px` 上内边距为 10px。
 
 ## 内容大小
-用 `width`, `height` 来设置内容大小，例如 `width: 100px` 设置了内容大小为 100px，如果与个元素有 20px 的 padding 以及 5px 的border，不算 margin, 元素的占用宽度为 100px + 20px × 2 + 5px × 2 即 150px。
+用 `width`, `height` 来设置内容大小，例如 `width: 100px` 设置了内容大小为 100px，如果有个元素有 20px 的 padding 以及 5px 的border，不算 margin, 元素的占用宽度为 100px + 20px × 2 + 5px × 2 即 150px。
 
 在这个例子里，计算元素的宽度实在麻烦。例如我们希望设置 200px 宽的元素，需要计算 border 和 padding。而 border 和 padding 在调试外观样式的时候需要频繁修改，这样让布局变的困难。于是在 CSS3 中引入了 box-sizing 属性，让大小设置更为直观简单。
 
